@@ -12,14 +12,11 @@ h1, h2, h3 {
     margin-bottom: 15px;
 }
 
-
-/* Навигация */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
     overflow: hidden;
-    background-color: #1c1c1c;
 }
 
 nav ul li {
@@ -43,7 +40,6 @@ nav ul li.active a {
     border-radius: 5px;
 }
 
-/* Логотип */
 .logo {
     text-align: center;
     color: #f39c12;
@@ -52,7 +48,6 @@ nav ul li.active a {
     margin-bottom: 40px;
 }
 
-/* Блоки с текстом и изображениями */
 .features-block, .about-section, .images-block, .image-block {
     overflow: hidden;
 }
@@ -72,7 +67,7 @@ nav ul li.active a {
 .images-block .image img, .image-block img {
     width: 100%;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    
 }
 
 /* Подписи под изображениями */
@@ -83,14 +78,8 @@ nav ul li.active a {
     color: #f39c12;
 }
 
-/* Очистка float */
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
-/* ID селекторы */
+
 #team {
     clear: both;
     padding: 20px 50px;
@@ -100,7 +89,6 @@ nav ul li.active a {
     background-color: #1c1c1c;
     padding: 10px;
     border-radius: 8px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.5);
     margin-bottom: 10px;
 }
 
@@ -116,11 +104,4 @@ a:hover {
     text-decoration: none;
 }
 
-/* Адаптивность */
-@media (max-width: 900px) {
-    .text-block, .about-block, .images-block, .image-block {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
-}
+
